@@ -35,6 +35,12 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'bootstrap-sass', '3.4.1'
 
+gem 'importmap-rails'
+
+gem 'turbo-rails', '~> 1.0', '>= 1.0.1'
+
+gem 'stimulus-rails', '~> 1.1', '>= 1.1.1'
+
 # PostgreSQL gem for database
 gem 'pg', '~> 1.4', '>= 1.4.4'
 
