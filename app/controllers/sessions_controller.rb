@@ -15,5 +15,9 @@ class SessionsController < ApplicationController
     end
   end
 
-  def destroy; end
+  def destroy
+    log_out
+    redirect_to root_path, status: :see_other
+  end
+
 end
