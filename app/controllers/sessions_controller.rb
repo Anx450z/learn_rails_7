@@ -20,5 +20,4 @@ class SessionsController < ApplicationController
     log_out
     redirect_to root_path, status: :see_other
   end
-
 end
